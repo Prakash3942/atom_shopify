@@ -1,0 +1,11 @@
+{
+    "apps" : [
+      {
+        "name"      : "website_dev",
+        "script"    : "yarn dev",
+        "interpreter": "none",
+        "args": "serve -p 8443 -T"
+      }
+    ]
+  }
+  

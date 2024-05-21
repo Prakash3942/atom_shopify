@@ -1,0 +1,47 @@
+{
+  "name": "material-next-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "local": "next dev",
+    "export": "next export",
+    "build": "next build",
+    "dev": "next start",
+    "prod": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/core": "10.1.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.20",
+    "@mui/styles": "^5.14.20",
+    "@types/react-headroom": "^3.2.3",
+    "@types/react-slick": "^0.23.11",
+    "@types/styled-components": "^5.1.34",
+    "framer-motion": "^10.16.16",
+    "next": "13.5.6",
+    "react": "latest",
+    "react-awesome-reveal": "^4.2.7",
+    "react-dom": "latest",
+    "react-emotion": "^10.0.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-headroom": "^3.2.1",
+    "react-lottie": "^1.2.3",
+    "react-slick": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-lottie": "^1.2.9",
+    "@types/react-slick": "^0.23.10",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "serve": "^14.2.0",
+    "typescript": "latest"
+  }
+}
